@@ -1,0 +1,42 @@
+Caderno Fluter 
+ 
+Criar projeto VSCode
+flutter create --org br.com.pedroso nomeProjeto
+
+
+Para criação de toolbar, navigation bar, botao flutuante de usar o Scaffold();
+
+import 'package:flutter/material.dart';
+
+void main(){
+  runApp(MaterialApp(
+    home: Home(),
+  ))
+}
+
+
+class Home extends StatefulWidget {
+  @override
+  _HomeState createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();  <-----------------------------Scaffold();
+  }
+}
+
+Validação de campos de formularios (Aula 49 projeto IMC)
+
+Para exibirmos o botão de "." (ponto decimal) no teclado do iOS, devemos realizar uma pequena alteração:
+
+Substitua o comando
+
+keyboardType: TextInputType.number,
+
+por
+
+keyboardType: TextInputType.numberWithOptions(decimal: true),
+
+Desta forma você poderá digitar números decimais no iOS também!
