@@ -1,42 +1,41 @@
 {
   "project_info": {
-    "project_number": "403051895353",
-    "firebase_url": "https://chatflutter-cc101.firebaseio.com",
-    "project_id": "chatflutter-cc101",
-    "storage_bucket": "chatflutter-cc101.appspot.com"
+    "project_number": "462590616777",
+    "project_id": "testeflutter-cd103",
+    "storage_bucket": "testeflutter-cd103.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:403051895353:android:63d16eca2be0d4cca28be8",
+        "mobilesdk_app_id": "1:462590616777:android:f9f4cabe7637e680b3d918",
         "android_client_info": {
-          "package_name": "br.com.renato.chat"
+          "package_name": "com.example.chat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "403051895353-thisd4cnqkm32trjspne71i7enfg0o6h.apps.googleusercontent.com",
+          "client_id": "462590616777-ape3et0v5u540n3552nc8fnoo9o3vt1n.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "br.com.renato.chat",
-            "certificate_hash": "6ae9c609317ad2d466438f02cc911ad5f22a0b97"
+            "package_name": "com.example.chat",
+            "certificate_hash": "fa7feeba084210b2ecb2e87a689f047b1c79077e"
           }
         },
         {
-          "client_id": "403051895353-qmpv6p905qatn2lhajps664f35kba3ih.apps.googleusercontent.com",
+          "client_id": "462590616777-2pnomvt2vqa9af3u93htgpnlkb0oq68c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBMAdNed9MFY5pqdu-dc7882UNC9nM7H10"
+          "current_key": "AIzaSyBQxeO1i9amHDX9eozlZ77OFezkFA5CtRg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "403051895353-qmpv6p905qatn2lhajps664f35kba3ih.apps.googleusercontent.com",
+              "client_id": "462590616777-2pnomvt2vqa9af3u93htgpnlkb0oq68c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,26 +1,27 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
+import 'chat_screen.dart';
 
-  Firestore.instance.collection('mensagens').document('msg1').setData({
-    'text' : 'Olá',
-    'from' : 'Pedro',
-    'read' : false
-  });
+void main() {
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        iconTheme: const IconThemeData(color: Colors.deepPurple),
+        useMaterial3: true,
       ),
-      home: Container(),
+      home: const ChatScreen(),
     );
   }
 }
